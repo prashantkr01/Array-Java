@@ -5,9 +5,9 @@ public class Practice_Q1 {
 
         for(int i=0; i<arr.length; i++){
             if(i%2==0){
-                System.out.print(2*arr[i]+" ");
-            }else{
                 System.out.print(arr[i]+10+" ");
+            }else{
+                System.out.print(arr[i]*2+" ");
             }
         }
     }
