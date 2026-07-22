@@ -20,6 +20,12 @@ public class Array_List {
             System.out.print(arr.get(i)+" ");
         }
         System.out.println();
+
+        arr.add(4,90); //insert element in array through index
+
+        arr.remove(2); //remove element through index
+
+        arr.remove(arr.size()-1); //remove last element
         
         for(int ele: arr){ //Print Arraylist through for each loop
             System.out.print(ele+" ");
