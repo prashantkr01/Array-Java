@@ -1,8 +1,8 @@
 public class Rotate_Array {
     public static void main(String[] args) {
-        int arr[]={6,8,1    ,2,4,9,0};
+        int arr[]={6,8,1,2,4,9,0};
         int d=3;
-
+        d=d%arr.length; //Important
         int start=0;
         int end=d-1;
         int temp=0;
