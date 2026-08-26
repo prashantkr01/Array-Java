@@ -72,7 +72,7 @@ public class Union_Two_Sorted_Array {
             k++;
         }
         Arrays.sort(nums);
-        System.err.print(nums[0]+" ");
+        System.out.print(nums[0]+" ");
         for(int i=1; i<n; i++){
             if(nums[i]!=nums[i-1])
             System.out.print(nums[i]+" ");
