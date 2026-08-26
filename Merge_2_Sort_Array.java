@@ -22,12 +22,6 @@ public class Merge_2_Sort_Array {
             i++;
             k++;
         }
-        while(j<b.length){
-            arr[k]=b[j];
-            j++;
-            k++;
-        }
-
     for(int ele : arr){
         System.out.print(ele+" ");
     }
